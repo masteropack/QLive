@@ -44,7 +44,7 @@
         }
 
         .text-start {
-            align-self: flex-start;
+            align-self: center;
             margin: 1%;
             font-size: 6vh;
         }
@@ -206,16 +206,34 @@
                 <hr class="half-rule" />
             </div>
             <div class="container-fluid">
-                <div style="display: flex; flex-direction: row; justify-content: flex-start; align-items: center;">
-                    <button class="thumbnail pic-block" style="margin: 0% 1px; width: 3%" href="#">
-                        <h1>1</h1>
-                    </button>
-                    <button class="thumbnail pic-block" style="margin: 0% 1%" href="#">
-                        <h1>2</h1>
-                    </button>
-                    <h1 class="text-start" style="font-size: 3vh; align-content: center">
-                        <strong>Question</strong>
-                    </h1>
+                <div class="homebar">
+                    <div style="display: flex; flex-direction: row; justify-content: flex-start; align-items: center;">
+                        <button class="thumbnail pic-block" style="margin: 0% 5px; width: 30px" href="#">
+                            <h1>1</h1>
+                        </button>
+                        <button class="thumbnail pic-block" style="margin: 0% 1%" href="#">
+                            <h1>2</h1>
+                        </button>
+                        <h1 class="text-start" style="font-size: 3vh; align-content: center">
+                            <strong>Question</strong>
+                        </h1>
+                    </div>
+                    <div style="display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 30%">
+                        <label for="Time1">Time Limited</label>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="second" class="form-control" id="Time1" placeholder="second" style="width: 100px; margin-right: 0px">
+                                    <div class="input-group-addon" style="margin-right: 0px">second</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div style="display: flex; flex-direction: row; justify-content: flex-start; align-items: center;">
+                        <button class="thumbnail pic-block" style="margin: 0% 5px; width: 30px" href="#">
+                            <h1>1</h1>
+                        </button>
+                    </div>
                 </div>
                 <hr class="half-rule" />
             </div>
